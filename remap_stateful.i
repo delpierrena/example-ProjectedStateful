@@ -27,14 +27,6 @@
   []
 []
 
-[Kernels]
-  [gravity_y]
-  type = Gravity
-  variable = disp_y
-  value = -10
-  [../]
-[]
-
 [ProjectedStatefulMaterialStorage]
     [test]
       projected_props = 'plastic_strain stress total_strain elastic_strain plastic_internal_parameter plastic_transverse_direction'
@@ -310,11 +302,6 @@
     perform_finite_strain_rotations = false
     min_stepsize = 0.01
     ignore_failures = true
-  [../]
-  [density]
-    type = GenericFunctionMaterial
-    prop_names = density
-    prop_values = 0
   [../]
 []
 
