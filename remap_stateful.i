@@ -16,7 +16,7 @@
 
 [Physics]
   [SolidMechanics]
-    [Dynamic]
+    [QuasiStatic]
       [all]
         strain = SMALL
         incremental = true
